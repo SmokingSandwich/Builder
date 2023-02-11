@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/builder
+    password: cypriani
+  flyway:
+  baselineOnMigrate: 'true'
+  jpa:
+   show-sql: 'true'
+   hibernate:
+     ddl-auto: validate
+

@@ -5,6 +5,10 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
+/**
+ * @author ${user}
+ */
+
 @Entity
 @Table(name = "builder")
 @Getter
